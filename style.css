@@ -1,0 +1,15 @@
+#display {
+    border: 1px solid black;
+    margin: 10px 0px 10px 0px;
+}
+
+#display p {
+    margin: 1em;
+}
+
+#calculator {
+    width: 250px;
+}
+
+#button-wrapper {
+}
