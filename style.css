@@ -1,6 +1,7 @@
 #display {
     border: 1px solid black;
     margin: 10px 0px 10px 0px;
+    background-color: #ffffff;
 }
 
 #display p {
@@ -8,8 +9,42 @@
 }
 
 #calculator {
-    width: 250px;
+    border: 1px solid black;
+    padding: 10px;
+    width: 370px;
+    align-content: center;
+    background-color: #d4d4d4;
 }
 
 #button-wrapper {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+}
+
+#numbers {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#misc {
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 50px;
+}
+
+#operators {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#special {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+button {
+    height: 2em;
+    width: 5em;
+
 }
