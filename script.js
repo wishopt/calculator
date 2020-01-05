@@ -171,7 +171,7 @@ function evaluate(calc) {
             updateDisplay(result);
             return;
         };
-        calc.splice(position-1,3);
+        calc.splice(position,2);
         calc[position-1] = result;
     }
     for (let i = 2; i < calc.length;) {
